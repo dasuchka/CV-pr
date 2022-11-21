@@ -1,1 +1,1 @@
-console.log(navigator.userAgent)
+alert(navigator.userAgent)
