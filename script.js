@@ -2,7 +2,7 @@ var inf=navigator.userAgent+'\n' +navigator.platform+'\n' +navigator.language+'\
 alert(inf)
 
 if (navigator.geolocation) {
-  navigator.geolocation.getCurrentPosition(showPosition);
+  var geo_inf=navigator.geolocation.getCurrentPosition(showPosition);
 } else {
   document.getElementById("demo").innerHTML =
   "Geolocation is not supported by this browser.";
